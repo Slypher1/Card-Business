@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ccm"/>
+
+        <ImageView
+            style="@style/image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/monzino"/>
+
+        <TextView
+            style="@style/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title"/>
+
+        <TextView
+            style="@style/information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_business" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_img">
+
+            <LinearLayout
+                android:id="@+id/website"
+                style="@style/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/icon"
+                    android:src="@mipmap/ic_website" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="web"
+                    android:text="@string/website" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/address"
+                style="@style/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/website"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/icon"
+                    android:src="@mipmap/ic_address" />
+
+                <TextView
+                    style="@style/contact_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/address"
+                android:orientation="horizontal">
+
+                <ImageView
+                    style="@style/icon"
+                    android:src="@mipmap/ic_telephone" />
+
+                <TextView
+                    style="@style/contact_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:autoLink="phone"
+                    android:text="@string/telephone" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

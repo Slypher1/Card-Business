@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_img">16dp</dimen>
+    <dimen name="margin_contact">8dp</dimen>
+    <dimen name="icon">24dp</dimen>
+    <dimen name="title">24sp</dimen>
+</resources>

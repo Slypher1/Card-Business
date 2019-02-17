@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BusinessCard</string>
+
+    <string name="title">Focusing on better cardiovascular research, education and care</string>
+    <string name="description_business">Centro Cardiologico Monzino IRCCS is the first hospital in Europe exclusively dedicated to medical and surgical treatment and the study of cardiovascular diseases. It is a fundamental benchmark indeed for cardiovascular heart care throughout Italy and abroad.</string>
+    <string name="address">Via Carlo Parea, 4 - 20138 Milano</string>
+    <string name="telephone">02-580021</string>
+    <string name="website">https://www.cardiologicomonzino.it/en/</string>
+</resources>
