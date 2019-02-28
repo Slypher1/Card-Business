@@ -1,2 +1,2 @@
 # Card-Business
-Card Business - UDACITY - Project 1
+Project1 - UDACITY - Card Business
